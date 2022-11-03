@@ -3,6 +3,8 @@ import Home from "./components/routes/home.component";
 import Navigation from "./components/routes/navigation/navigation.component";
 import SignIn from "./components/routes/sign-in/sign-in.component";
 
+// ---------------------------------------------------------------------
+
 const Shop = () => {
 	return (
 		<div>
