@@ -11,7 +11,7 @@
 import SignUpForm from "../sign-up/sign-up-form.component";
 import SignInForm from "../sign-in/sign-in-form.component";
 
-import "./auth.styles.scss";
+import { AuthContainer } from "./auth.styles";
 
 // ---------------------------------------------------------------------
 
@@ -31,13 +31,13 @@ const Authentication = () => {
 	// };
 
 	return (
-		<div className="auth-container">
+		<AuthContainer>
 			<SignInForm />
 			<SignUpForm />
 			{/* <button onClick={signInWithGoogleRedirect}>
 				Sigin in with Google Redirect
 			</button> */}
-		</div>
+		</AuthContainer>
 	);
 };
 
